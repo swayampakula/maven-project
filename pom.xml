@@ -21,18 +21,11 @@
     <module>webapp</module>
   </modules>
 <distributionManagement>
-         <site><id>site-server</id><name>Test Project Site</name><url>file:///tmp/maven-project-site</url></site>
-         <repository>
-                  <id>pokemon</id>
-                  <name>pikachu</name>
-                  <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/pokemon/</url>
-         </repository>
-         <snapshotRepository>
-                  <id>snapshots</id>
-                  <name>Snapshots</name>
-                  <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/snapshots/</url>
-         </snapshotRepository>
-  </distributionManagement>
+  <repository>
+    <id>pokemon</id>
+    <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/pokemon</url>
+  </repository>
+</distributionManagement>
     <build>
     <plugins>
       <plugin>
