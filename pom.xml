@@ -29,7 +29,7 @@
     </site>
          
                     <repository>
-                    <id>releases</id>
+                    <id>123</id>
                     <name>samplerepo</name>
                     <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/123/</url>
            </repository>
