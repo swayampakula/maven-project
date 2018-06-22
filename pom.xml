@@ -22,8 +22,8 @@
   </modules>
 <distributionManagement>
   <repository>
-    <id>pokemon</id>
-    <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/pokemon</url>
+    <id>releases</id>
+    <url>http://localhost:8082/nexus/content/repositories/releases</url>
   </repository>
 </distributionManagement>
     <build>
