@@ -220,7 +220,7 @@
            <repository>
                     <id>releases</id>
                     <name>Releases</name>
-                    <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/releases/</url>
+                    <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/123/</url>
            </repository>
            <snapshotRepository>
                     <id>snapshots</id>
