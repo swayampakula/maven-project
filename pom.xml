@@ -27,6 +27,18 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+         
+                    <repository>
+                    <id>releases</id>
+                    <name>samplerepo</name>
+                    <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/123/</url>
+           </repository>
+           <snapshotRepository>
+                    <id>snapshots</id>
+                    <name>Snapshots</name>
+                    <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/snapshots/</url>
+           </snapshotRepository>
+   
   </distributionManagement>
 
   <build>
@@ -216,17 +228,6 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-  <distributionManagement>
-           <repository>
-                    <id>releases</id>
-                    <name>samplerepo</name>
-                    <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/123/</url>
-           </repository>
-           <snapshotRepository>
-                    <id>snapshots</id>
-                    <name>Snapshots</name>
-                    <url>http://docker-container.eastus.cloudapp.azure.com:8081/nexus/content/repositories/snapshots/</url>
-           </snapshotRepository>
-   </distributionManagement>                  
+                    
 
 </project>
