@@ -17,7 +17,7 @@ pipeline {
         }
         stage ('Deploy to Staging'){
             steps {
-                build job: 'maven1deploy'
+                build job: 'tostaging'
             }
         }
 
